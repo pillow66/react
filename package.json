@@ -1,0 +1,15 @@
+{
+  "name": "pillowReact",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  },
+  "scripts": {
+    "dev": "webpack --config webpack.dev.config.js; webpack-dev-server --devtool eval --progress --colors --content-base build"
+  }
+}
