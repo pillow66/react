@@ -1,0 +1,11 @@
+{
+  "name": "pillowReact",
+  "private": true,
+  "dependencies": {
+    "jquery": "latest",
+    "react": "latest"
+  },
+  "devDependencies": {
+  },
+  "version": "1.0.0"
+}
