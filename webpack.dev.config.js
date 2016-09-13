@@ -22,8 +22,9 @@ var config = {
     //输出
     output: {
         path: path.resolve(__dirname, './build'),
-        filename: "script/[name].[hash].js",
-        publicPath: "http:localhost:8080/build"
+        filename: "script/[name].[hash].js"
+        //加了会在生成页面应用的js和css中加入/build/...
+        //publicPath: '/build'
     },
     //插件
     plugins: [

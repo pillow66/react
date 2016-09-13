@@ -25,6 +25,7 @@
     "presets": ["react"]
   },
   "scripts": {
-    "dev": "node server.js;webpack --config webpack.dev.config.js --display-error-details --progress --colors --watch; webpack-dev-server --devtool eval --progress --colors --content-base build"
+    "start":"node server.js",
+    "dev": "webpack --config webpack.dev.config.js --display-error-details --progress --colors --watch;"
   }
 }
