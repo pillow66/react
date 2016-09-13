@@ -1,4 +1,4 @@
-require('./style.css');
+require('./style.scss');
 
 var ProductBox = React.createClass({
     render:function(){

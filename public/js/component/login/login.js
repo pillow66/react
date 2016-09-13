@@ -1,3 +1,5 @@
+require('./style.scss');
+
 var Login = React.createClass({
     render: function () {
         return (
