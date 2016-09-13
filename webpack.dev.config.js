@@ -12,7 +12,7 @@ var config = {
     //入口
     entry: {
         index: [
-            "webpack-dev-server/client?http://0.0.0.0:3000",
+            "webpack-dev-server/client?http://localhost:3000",
             "webpack/hot/only-dev-server",
             path.resolve(__dirname, './public/js/entry/index.js')],
         login: path.resolve(__dirname, './public/js/entry/login.js'),
