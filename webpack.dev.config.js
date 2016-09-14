@@ -27,6 +27,7 @@ var config = {
     entry: {
         //起始页
         index: [
+            //启动webpack自带服务器运行项目,支持react热部署
             "webpack-dev-server/client?http://localhost:3000",
             "webpack/hot/only-dev-server",
             paths.entry + 'index.js'
