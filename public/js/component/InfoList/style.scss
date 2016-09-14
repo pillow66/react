@@ -1,0 +1,12 @@
+.info-list {
+  > h3 {
+    margin-bottom: 20px;
+  }
+
+  > div {
+    > div {
+      border-bottom: 1px solid #ccc;
+      padding: 5px 0;
+    }
+  }
+}

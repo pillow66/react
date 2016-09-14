@@ -1,6 +1,6 @@
 /**
  * Created by lulu on 16/9/12.
  */
-var ProductBox = require("../component/productBox/productBox.js");
+var InfoList = require("../component/InfoList/InfoList.js");
 
-ReactDOM.render(<ProductBox/>, $('#content').get(0));
+ReactDOM.render(<InfoList/>, $('#content').get(0));

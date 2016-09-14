@@ -1,6 +1,6 @@
 /**
  * Created by lulu on 16/9/12.
  */
-var Login = require("../component/login/login.js");
+var LoginForm = require("../component/LoginForm/LoginForm.js");
 
-ReactDOM.render(<Login/>, $('body').get(0));
+ReactDOM.render(<LoginForm/>, $('#content').get(0));

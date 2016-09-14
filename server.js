@@ -12,6 +12,8 @@ new WebpackDevServer(webpack(devConfig),
         hot: true,
         historyApiFallback: true
     }
-).listen(3000, 'localhost', function (err, result) {
-        console.log(err || result);
+).listen(3000, 'localhost', function (err) {
+        if(!err) {
+            console.log("监听成功~(｡・`ω´･)~        ");
+        }
     });
