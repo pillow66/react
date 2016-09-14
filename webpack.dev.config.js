@@ -31,7 +31,6 @@ var config = {
             "webpack/hot/only-dev-server",
             paths.entry + 'index.js'
         ],
-        //login: paths.entry + 'login.js',
         //公共js,css
         vendor: ['jquery', 'react', 'react-dom', paths.css + 'common.scss']
     },
@@ -57,18 +56,6 @@ var config = {
         }),
         //提取入口定义的vendor打包为公共模块vendor.[hash].js
         new webpack.optimize.CommonsChunkPlugin('vendor', fileNames.vendor)
-        /*//依据模板生成html页
-        new HtmlWebpackPlugin({
-            filename: "index.html",
-            template: paths.template + 'index.html',
-            //规定生成html页中注入入口vendor,index这2个chunks下打包的js,css文件
-            chunks: ['vendor', 'index']
-        }),
-        new HtmlWebpackPlugin({
-            filename: "login.html",
-            template: paths.template + 'login.html',
-            chunks: ['vendor', 'login']
-        })*/
     ],
     module: {
         loaders: [
